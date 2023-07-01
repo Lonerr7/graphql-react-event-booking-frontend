@@ -1,3 +1,3 @@
 export const AuthPage = () => {
-  return <div>Auth</div>;
+  return <div>AuthPage</div>;
 };

@@ -1,0 +1,38 @@
+@import '../../vars';
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+  }
+
+  &__listItem:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__link,
+  &__link_active {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+
+    &:hover {
+      color: $color2;
+    }
+  }
+
+  &__link_active {
+    color: $color2;
+  }
+}
